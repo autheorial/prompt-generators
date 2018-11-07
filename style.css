@@ -1,0 +1,70 @@
+body{
+            background: #ccc;
+            }
+        
+            #container{
+                background: #fff;
+                padding: 1em;
+                margin: 3em auto;
+                font: normal 100%/160% 'PT Sans';
+                width: 70%;
+            }
+            
+            h1{
+                font: normal 300% 'Poiret One';
+                text-transform: lowercase;
+                text-align: center;
+                letter-spacing: 1px;
+                margin-bottom: 0;
+            }
+            
+            h2{
+                font: italic 200% 'Poiret One';
+                text-transform: lowercase;
+                text-align: center;
+                margin-top: 0;
+                color: #999;
+            }
+            
+            #prompts{
+                font-size: 200%;
+                text-align: center;
+                line-height: 130%;
+                background: #eee;
+    width: 50%;
+    padding: 0.5em;
+    font-family: 'Poiret One';
+    letter-spacing: 1px;
+    margin: 1.5em auto 0;
+            }
+            
+            #footer{
+                margin: 2em;
+                text-align: center;
+            }
+            
+            a:link, a:visited{
+                color: #f49542;
+            }
+            
+            a:hover, a:active{
+                text-decoration: none;
+            }
+            
+            input[type="button"]{
+                background: #eee;
+                color: #000;
+                font: normal 150% 'Poiret One', sans-serif;
+                border: 1px #fff solid;
+                padding: 5px 10px;
+                display: block;
+                text-align: center;
+                margin-bottom: 1.5em;
+                text-transform: lowercase;
+            }
+            
+            input[type="button"]:hover{
+                background: #fff;
+                color: #000;
+                border: 1px #eee solid;
+            }
